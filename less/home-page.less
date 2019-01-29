@@ -3,10 +3,16 @@
   .intro {
     padding: 90px 0 10px;
     border-bottom: 2px dashed @navigation-border;
+    
 
     img {
       max-width: 100%;
       height: auto;
+      z-index: 0;
+    }
+    img.mouse-move {
+      filter: grayscale(100%);
+      transition-duration: 1s;
     }
 
     h2 {
@@ -19,8 +25,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-   
+  
     
     .text-content {
       width: 48%;
