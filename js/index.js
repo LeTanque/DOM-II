@@ -70,6 +70,7 @@ const funbusMouse = document.querySelector('.funbus');
 funbusMouse.addEventListener('mousemove', () => {
     console.log('You have moved over funbus!');
     funbusMouse.classList.toggle('mouse-move');
+    event.stopPropagation();  // Stops the grayscale feature from looking all buggy
 });
 
 
