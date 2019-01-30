@@ -1,22 +1,13 @@
-* {
-  box-sizing: border-box;
+* {  box-sizing: border-box; }
+html { font-size: 62.5%; }
+html, body { font-family: 'Roboto', sans-serif; }
+body { 
+  // background: @dark-bg;
+  // color: @yellow;
 }
+h1, h2, h3, h4, h5 { font-family: 'Indie Flower', cursive; }
 
-html {
-  font-size: 62.5%;
-}
-
-html, body {
-  font-family: 'Roboto', sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-  font-family: 'Indie Flower', cursive;
-}
-
-h1 {
-  font-size: 4rem;
-}
+h1 { font-size: 4rem; }
 
 h2 {
   font-size: 3.2rem;
@@ -48,4 +39,11 @@ img {
     width: 90%;
     margin: 0 5%;
   }
+}
+
+.trail { /* className for the trail elements */
+  position: absolute;
+  height: 6px; width: 6px;
+  border-radius: 3px;
+  background: teal;
 }
